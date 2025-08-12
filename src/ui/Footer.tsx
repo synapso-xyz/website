@@ -1,4 +1,7 @@
-export function Footer({ children }: PropsWithChildren){
+import { PropsWithChildren } from 'react';
+
+
+export function Footer({ children }: PropsWithChildren) {
   return (
     <footer className="mt-auto w-full">
       <div className="w-full px-4 py-3 glass">
