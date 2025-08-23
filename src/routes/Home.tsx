@@ -37,12 +37,12 @@ export default function Home() {
             >
               Join the Waitlist
             </Link>
-            <a
+            {/* <a
               href="#features"
               className="inline-flex items-center font-semibold px-4 py-2 rounded-xl border border-white/15 text-slate-100 hover:bg-white/10 transition"
             >
               Learn more
-            </a>
+            </a> */}
           </div>
         </div>
       </div>
