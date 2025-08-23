@@ -1,3 +1,4 @@
+// tailwind.config.ts
 import type { Config } from 'tailwindcss'
 
 export default {
@@ -9,17 +10,16 @@ export default {
         brand: {
           DEFAULT: '#22d3ee',   // cyan-400
           emphasis: '#06b6d4',  // cyan-500
-          fg: '#041016'
-        }
+          fg: '#041016',
+        },
+        'synapso-blue': '#05a9eb',
       },
-      boxShadow: {
-        soft: '0 12px 30px rgba(0,0,0,.35)'
+      boxShadow: { soft: '0 12px 30px rgba(0,0,0,.35)' },
+      borderRadius: { '2xl': '1rem' },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
       },
-      borderRadius: {
-        '2xl': '1rem'
-      }
-    }
+    },
   },
   plugins: [],
 } satisfies Config
-
